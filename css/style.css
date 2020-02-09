@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css?family=Lora|Roboto|Zhi+Mang+Xing&display=swap");
+
+@import url("components/container.css");
+
+@import url("components/imagelist.css");
+
+@import url("components/btn-grey.css");
+
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/content.css");
+@import url("components/list-inline.css");
+
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin: 0px 0px;
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%), url(../images/stars.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-right: 0px;
+
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-weight: bold;
+	font-size: 72px;
+	color: white;
+	text-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 26px;
+	color: white;
+	text-transform-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
